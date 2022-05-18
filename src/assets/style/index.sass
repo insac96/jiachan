@@ -1,0 +1,90 @@
+*
+  margin: 0
+  padding: 0
+  border: none
+  outline: none
+  box-sizing: border-box
+  -webkit-tap-highlight-color: transparent !important
+
+html
+  font-size: 16px
+
+body
+  font-family: 'Quicksand', sans-serif
+  font-size: 0.95rem
+  background: #18191c
+  color: #fff
+
+input, button
+  font-family: inherit
+  padding: 12px
+  border-radius: 12px
+
+input
+  width: 100%
+  font-size: 1rem
+  border: 1px solid rgb(29,161,242)
+  background: #18191c
+  color: #fff
+  height: 50px
+
+button
+  cursor: pointer
+
+#app
+  width: 100%
+  padding-bottom: 60px
+
+.mt
+  margin-top: 12px
+.mb
+  margin-bottom: 12px
+.ml
+  margin-left: 12px
+.mr
+  margin-right: 12px
+.mx
+  margin: 0 12px
+.my
+  margin: 12px 0
+
+.mt-1
+  margin-top: 24px
+.mb-1
+  margin-bottom: 24px
+.ml-1
+  margin-left: 24px
+.mr-1
+  margin-right: 24px
+.mx-1
+  margin: 0 24px
+.my-1
+  margin: 24px 0
+
+// Zoom
+@keyframes zoom-effect 
+  0%
+    opacity: 0
+    transform: scale(0.2)
+  
+  100%
+    opacity: 1
+    transform: scale(1)
+
+// Show
+@keyframes show-effect 
+  0% 
+    opacity: 0
+  
+  100% 
+    opacity: 1
+
+// Show
+@keyframes down-effect 
+  0% 
+    opacity: 0
+    transform: translateY(-100%)
+  
+  100% 
+    opacity: 1
+    transform: translateY(0)
