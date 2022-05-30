@@ -2,7 +2,6 @@
   <div id="app">
     <router-view/>
     
-    <UiMenu></UiMenu>
     <UiPWA></UiPWA>
   </div>
 </template>

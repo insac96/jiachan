@@ -1,0 +1,77 @@
+.Sound
+  position: relative
+
+  .now
+    background: #232323
+    position: fixed
+    bottom: 0px
+    left: 0
+    width: 100%
+    z-index: 10
+    padding: 8px 12px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    animation: up-effect 0.25s ease
+
+    .now-info
+      display: flex
+      flex-direction: column
+      font-size: 0.7rem
+      padding-top: 4px
+      span
+        margin-top: 2px
+        font-size: 0.95rem
+        font-weight: 700
+        color: rgb(var(--ui-now-color))
+
+    .now-control
+      display: flex
+      align-items: center
+      font-size: 1.7rem
+      .now-control-btn
+        display: flex
+        align-items: center
+        justify-content: center
+        cursor: pointer
+        &:last-child
+          margin-left: 12px
+
+    .now-time
+      position: absolute
+      left: 0
+      top: 0
+      width: var(--ui-now-time)
+      height: 2px
+      background: rgb(var(--ui-now-color))
+      transition: width 0.5s linear
+      .now-time-btn
+        display: flex
+        justify-content: center
+        align-items: center
+        position: absolute
+        right: -15px
+        top: -7.5px
+        width: 30px
+        height: 15px
+        border-radius: 6px
+        background: #232323
+        color: #fff
+        border: 1px solid rgb(var(--ui-now-color))
+        font-size: 0.6rem
+        font-weight: 700
+
+  .content
+    padding: 0 12px
+
+    .list
+      display: flex
+      justify-content: center
+      flex-wrap: wrap
+      
+      .btn
+        font-size: 0.75rem
+        font-weight: 600
+        margin: 4px
+        padding: 10px
+

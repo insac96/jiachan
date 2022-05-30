@@ -1,21 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Sound from '../views/Sound.vue'
-import Jia from '../views/Jia.vue'
+import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Sound',
-    component: Sound
-  },
-  {
-    path: '/jia',
-    name: 'Jia',
-    component: Jia
-  },
+    name: 'Home',
+    component: Home
+  }
   //{
   //  path: '/paint',
   //  name: 'Paint',
