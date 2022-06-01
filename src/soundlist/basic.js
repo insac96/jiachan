@@ -71,6 +71,10 @@ const basic_3 = [
     {
         name: 'Khoái Khoái',
         file: 'basic/Khoai_Khoai',       
+    },
+    {
+        name: 'Ngáy Ngủ',
+        file: 'basic/ngay_ngu',       
     }
 ]
 
