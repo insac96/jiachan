@@ -1,5 +1,4 @@
 const dance = [
-    
     {
         name: 'Anh Đánh Rơi Người Yêu Này',
         file: 'dance/anh_danh_roi_nguoi_yeu_nay',

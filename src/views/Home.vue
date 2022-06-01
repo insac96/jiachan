@@ -84,11 +84,11 @@
 </template>
 
 <script>
-import basic from '../soundlist/basic'
-import music from '../soundlist/music'
-import troll from '../soundlist/troll'
-import japan from '../soundlist/japan'
-import dance from '../soundlist/dance'
+import basic from '../sounds/basic'
+import music from '../sounds/music'
+import troll from '../sounds/troll'
+import japan from '../sounds/japan'
+import dance from '../sounds/dance'
 
 export default {
   name: 'Home',
