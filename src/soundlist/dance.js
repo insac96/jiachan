@@ -1,7 +1,13 @@
 const dance = [
+    
     {
         name: 'Anh Đánh Rơi Người Yêu Này',
         file: 'dance/anh_danh_roi_nguoi_yeu_nay',
+        repeat: true
+    },
+    {
+        name: 'Ả Rập Saudi',
+        file: 'dance/a_rap_saudi',
         repeat: true
     },
     {
