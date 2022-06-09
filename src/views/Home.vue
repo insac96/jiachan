@@ -59,11 +59,6 @@
         <SoundList :list="soundsList.basic.list_4" @select="Action" :soundFile="soundSelect.file"></SoundList>
       </div>
 
-      <!--Music-->
-      <div class="content-select" v-show="menuSelect == 'Music' || menuSelect == 'All'">
-        <SoundList :list="soundsList.music" @select="Action" :soundFile="soundSelect.file"></SoundList>
-      </div>
-
       <!--Troll-->
       <div class="content-select" v-show="menuSelect == 'Troll' || menuSelect == 'All'">
         <SoundList :list="soundsList.troll" @select="Action" :soundFile="soundSelect.file"></SoundList>
@@ -85,7 +80,6 @@
 
 <script>
 import basic from '../sounds/basic'
-import music from '../sounds/music'
 import troll from '../sounds/troll'
 import japan from '../sounds/japan'
 import dance from '../sounds/dance'
@@ -106,7 +100,7 @@ export default {
       menuSelect: 'Basic',
       
       menuSelects: [
-        'Basic', 'Music', 'Troll', 'Japan', 'Dance', 'All'
+        'Basic', 'Troll', 'Japan', 'Dance', 'All'
       ],
 
       hasSound : false,
@@ -125,7 +119,6 @@ export default {
 
       soundsList: {
         basic: basic,
-        music: music,
         troll: troll,
         japan: japan,
         dance: dance
