@@ -9,6 +9,10 @@ const basic_1 = [
         file: 'basic/Thang_2',  
     },
     {
+        name: 'Thắng 3',
+        file: 'basic/sky_oi',  
+    },
+    {
         name: 'Thua',
         file: 'basic/Thua',   
     },
@@ -24,10 +28,18 @@ const basic_1 = [
         name: 'Kịch Tính',
         file: 'basic/Kich_Tinh',
     },
+    {
+        name: 'Kịch Tính 2',
+        file: 'basic/kich_tinh_2',
+    },
 ]
 
 // Basic 2
 const basic_2 = [
+    {
+        name: 'Oh No',
+        file: 'basic/oh_no', 
+    },
     {
         name: 'Lêu Lêu',
         file: 'basic/leu_leu',   
@@ -37,21 +49,13 @@ const basic_2 = [
         file: 'basic/Cuoi_1',  
     },
     {
-        name: 'Cười 2',
-        file: 'basic/Cuoi_2',  
-    },
-    {
         name: 'Em Bé Cười',
         file: 'basic/Em_Be_Cuoi', 
     },
     {
-        name: 'Cười Oh No',
-        file: 'basic/cuoi_oh_no',
+        name: 'Yeah',
+        file: 'basic/yeah', 
     },
-    {
-        name: 'Ai Ô Sì Mà',
-        file: 'basic/ai_o_si_ma',
-    }
 ]
 
 // Basic 3
@@ -81,20 +85,8 @@ const basic_3 = [
 // Basic 4
 const basic_4 = [
     {
-        name: 'Cảm Ơn Em',
-        file: 'basic/cam_on_anh',   
-    },
-    {
-        name: 'Quán Em Có Bán Cafe',
-        file: 'basic/Ban_Cafe',   
-    },
-    {
         name: 'Anh Em Tao Đến',
         file: 'basic/anh_em_tao_den',    
-    },
-    {
-        name: 'Ôi Con Sông Quê',
-        file: 'basic/oi_con_song_que'   
     },
     {
         name: 'Còn Cái Nịt',
