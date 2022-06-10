@@ -1,5 +1,10 @@
 const dance = [
     {
+        name: 'Trang Trại Cần',
+        file: 'dance/Trang_Trai_Can',
+        repeat: true
+    },
+    {
         name: 'Anh Đánh Rơi Người Yêu Này',
         file: 'dance/anh_danh_roi_nguoi_yeu_nay',
         repeat: true
@@ -56,7 +61,7 @@ const dance = [
     },
     {
         name: 'Dance',
-        file: 'dance/dance',
+        file: 'dance/Dance',
         repeat: true
     },
     {
