@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import VueMeta from 'vue-meta'
 import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
@@ -14,6 +15,7 @@ import SoundList from './components/home/soundList.vue'
 
 // Configs
 Vue.config.productionTip = false
+Vue.use(VueMeta)
 
 // Use Components UI
 Vue.component('UiDialog', Dialog)
