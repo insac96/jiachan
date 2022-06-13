@@ -72,7 +72,8 @@
 
       <!--Dance-->
       <div class="content-select" v-show="menuSelect == 'Dance'">
-        <SoundList :list="soundsList.dance" @select="Action" :soundFile="soundSelect.file"></SoundList>
+        <SoundList :list="soundsList.dance.list_1" @select="Action" :soundFile="soundSelect.file"></SoundList>
+        <SoundList :list="soundsList.dance.list_2" @select="Action" :soundFile="soundSelect.file"></SoundList>
       </div>
     </div>
   </div>

@@ -10,7 +10,7 @@ const basic_1 = [
     },
     {
         name: 'Thắng 3',
-        file: 'basic/sky_oi',  
+        file: 'basic/Thang_3',  
     },
     {
         name: 'Thua',
@@ -26,7 +26,7 @@ const basic_1 = [
     },
     {
         name: 'Kịch Tính',
-        file: 'basic/Kich_Tinh',
+        file: 'basic/kich_tinh',
     },
     {
         name: 'Kịch Tính 2',
@@ -84,6 +84,10 @@ const basic_3 = [
 
 // Basic 4
 const basic_4 = [
+    {
+        name: 'Love You',
+        file: 'basic/love_you',    
+    },
     {
         name: 'Anh Em Tao Đến',
         file: 'basic/anh_em_tao_den',    

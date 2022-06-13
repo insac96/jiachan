@@ -1,7 +1,17 @@
-const dance = [
+const dance_1 = [
+    {
+        name: 'Feel',
+        file: 'dance/feel',
+        repeat: true
+    },
+    {
+        name: 'Tôi Có Gì Không Bằng Nó',
+        file: 'dance/toi_co_gi_khong_bang_no',
+        repeat: true
+    },
     {
         name: 'Trang Trại Cần',
-        file: 'dance/Trang_Trai_Can',
+        file: 'dance/trang_trai_can',
         repeat: true
     },
     {
@@ -9,6 +19,16 @@ const dance = [
         file: 'dance/anh_danh_roi_nguoi_yeu_nay',
         repeat: true
     },
+    {
+        name: 'Hạ Còn Vương Nắng',
+        file: 'dance/ha_con_vuong_nang',
+        repeat: true
+    },
+]
+
+
+// Dance 2
+const dance_2 = [
     {
         name: 'Ả Rập Saudi',
         file: 'dance/a_rap_saudi',
@@ -23,11 +43,6 @@ const dance = [
         name: 'Dại Khờ',
         file: 'dance/dai_kho',
         repeat: true  
-    },
-    {
-        name: 'Hạ Còn Vương Nắng',
-        file: 'dance/ha_con_vuong_nang',
-        repeat: true
     },
     {
         name: 'Em Là Nhất',
@@ -61,7 +76,7 @@ const dance = [
     },
     {
         name: 'Dance',
-        file: 'dance/Dance',
+        file: 'dance/dance',
         repeat: true
     },
     {
@@ -78,7 +93,10 @@ const dance = [
         name: 'China',
         file: 'dance/china',
         repeat: true  
-    },
+    }
 ]
 
-export default dance
+export default {
+    list_1: dance_1,
+    list_2: dance_2
+}
