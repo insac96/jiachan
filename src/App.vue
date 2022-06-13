@@ -2,16 +2,19 @@
   <div id="app">
     <router-view/>
     
-    <UiPWA></UiPWA>
+    <DialogPWA></DialogPWA>
+    <DialogIntro></DialogIntro>
   </div>
 </template>
 
 <script>
 import pwa from '@/components/other/pwa.vue'
+import intro from '@/components/other/intro.vue'
 
 export default {
   components: {
-    'UiPWA': pwa
+    'DialogPWA': pwa,
+    'DialogIntro': intro
   }
 }
 </script>
