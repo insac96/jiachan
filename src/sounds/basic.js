@@ -26,7 +26,7 @@ const basic_1 = [
     },
     {
         name: 'Kịch Tính',
-        file: 'basic/kich_tinh',
+        file: 'basic/Kich_Tinh',
     },
     {
         name: 'Kịch Tính 2',
