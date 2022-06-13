@@ -11,7 +11,7 @@ const dance_1 = [
     },
     {
         name: 'Trang Trại Cần',
-        file: 'dance/trang_trai_can',
+        file: 'dance/Trang_Trai_Can',
         repeat: true
     },
     {
